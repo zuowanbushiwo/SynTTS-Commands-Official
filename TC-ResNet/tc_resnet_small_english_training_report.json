@@ -1,0 +1,54 @@
+{
+  "model_name": "tc_resnet_small_english",
+  "model_type": "TC-ResNet",
+  "parameters": 68431,
+  "config": {
+    "input_shape": [
+      49,
+      40,
+      1
+    ],
+    "num_classes": 23,
+    "batch_size": 64,
+    "epochs": 50,
+    "learning_rate": 0.001,
+    "model_size": "small"
+  },
+  "test_results": {
+    "loss": 0.03469676151871681,
+    "compile_metrics": 0.9887145757675171
+  },
+  "label_mapping": {
+    "Play": 0,
+    "Pause": 1,
+    "Resume": 2,
+    "Play from start": 3,
+    "Repeat song": 4,
+    "Previous track": 5,
+    "Next track": 6,
+    "Last song": 7,
+    "Skip song": 8,
+    "Jump to first track": 9,
+    "Volume up": 10,
+    "Volume down": 11,
+    "Mute": 12,
+    "Set volume to 50%": 13,
+    "Max volume": 14,
+    "Answer call": 15,
+    "Hang up": 16,
+    "Decline call": 17,
+    "Hey Siri": 18,
+    "OK Google": 19,
+    "Hey Google": 20,
+    "Alexa": 21,
+    "Hi Bixby": 22
+  },
+  "training_history": {
+    "final_train_accuracy": 0.9856755137443542,
+    "final_val_accuracy": 0.9900491833686829,
+    "final_train_loss": 0.039968423545360565,
+    "final_val_loss": 0.028906026855111122,
+    "total_epochs": 50
+  },
+  "timestamp": "2025-11-06 11:24:48.350191"
+}
